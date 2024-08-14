@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado José</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo Mercado José" class="logo">
+            <h1>Mercado José</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Bem-vindo ao Mercado José!</h2>
+            <p>Seu mercadinho local com produtos frescos e de qualidade.</p>
+            <a href="#produtos" class="btn-primary">Confira Nossos Produtos</a>
+        </div>
+    </section>
+
+    <section id="produtos" class="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="product-list">
+                <!-- Adicione produtos aqui -->
+                <div class="product-item">
+                    <h3>Produto 1</h3>
+                    <p>Descrição do produto.</p>
+                </div>
+                <div class="product-item">
+                    <h3>Produto 2</h3>
+                    <p>Descrição do produto.</p>
+                </div>
+                <div class="product-item">
+                    <h3>Produto 3</h3>
+                    <p>Descrição do produto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mercado José. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
